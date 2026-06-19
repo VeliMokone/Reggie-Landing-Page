@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GOATED BARBERS · Fresh Cuts</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="logo">
+      <i class="fas fa-scissors" style="color: var(--gold); margin-right: 10px;"></i>
+      GOATED BARBERS
+    </div>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#about">About</a></li>
+    </ul>
+
+    <a href="https://wa.me/YOURNUMBER" class="btn nav-btn">
+      <i class="fab fa-whatsapp"></i> Book Now
+    </a>
+
+    <div class="menu-btn" id="menuBtn">
+      <i class="fas fa-bars"></i>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-overlay"></div>
+    <img src="images/hero.jpg" alt="Fresh Fade" />
+
+    <div class="hero-content">
+      <span class="hero-tag"><i class="fas fa-star" style="margin-right: 6px;"></i>GOATED BARBERS</span>
+      <h1>Fresh Cuts.<br />Clean Fades.<br />Book on WhatsApp.</h1>
+      <p>Professional barber services at 37 St Patricks. House calls available from R200.</p>
+      <a href="https://wa.me/YOURNUMBER" class="btn">
+        <i class="fab fa-whatsapp"></i> Book Your Cut
+      </a>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services reveal" id="services">
+    <div class="container">
+      <h2>Our Services</h2>
+      <div class="services-grid">
+        <div class="service-card">
+          <i class="fas fa-cut"></i>
+          <h3>Fade</h3>
+          <p>R100</p>
+        </div>
+        <div class="service-card">
+          <i class="fas fa-palette"></i>
+          <h3>Fade + Dye</h3>
+          <p>R200</p>
+        </div>
+        <div class="service-card">
+          <i class="fas fa-fill-drip"></i>
+          <h3>Colours</h3>
+          <p>R200</p>
+        </div>
+        <div class="service-card">
+          <i class="fas fa-droplet"></i>
+          <h3>Bleach</h3>
+          <p>R280</p>
+        </div>
+        <div class="service-card">
+          <i class="fas fa-razor"></i>
+          <h3>Chiskop</h3>
+          <p>R50</p>
+        </div>
+        <div class="service-card">
+          <i class="fas fa-brush"></i>
+          <h3>Brush</h3>
+          <p>R50</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOUSE CALLS -->
+  <section class="house-calls reveal">
+    <div class="container">
+      <h2>House Calls Available</h2>
+      <p>Can't make it to the shop? I come to you. Starting from R200.</p>
+      <a href="https://wa.me/YOURNUMBER" class="btn">
+        <i class="fas fa-home"></i> Book A House Call
+      </a>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="gallery reveal" id="gallery">
+    <div class="container">
+      <h2>My Work</h2>
+      <div class="gallery-grid">
+        <img src="images/gallery-1.jpg" alt="Haircut 1" loading="lazy" />
+        <img src="images/gallery-2.jpg" alt="Haircut 2" loading="lazy" />
+        <img src="images/gallery-3.jpg" alt="Haircut 3" loading="lazy" />
+        <img src="images/gallery-4.jpg" alt="Haircut 4" loading="lazy" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about reveal" id="about">
+    <div class="container about-grid">
+      <div class="about-image">
+        <img src="images/about.jpg" alt="Barber" loading="lazy" />
+      </div>
+      <div class="about-content">
+        <h2>About Me</h2>
+        <p>Professional barber at 37 St Patricks. Quality cuts. Clean fades. Consistent service.</p>
+        <div class="hours">
+          <h4><i class="far fa-clock" style="color: var(--gold);"></i> Opening Hours</h4>
+          <p>Monday - Saturday: 9am - 6pm</p>
+          <p>Sunday: Closed</p>
+          <br />
+          <h4><i class="fas fa-map-pin" style="color: var(--gold);"></i> Address</h4>
+          <p>37 St Patricks</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials reveal">
+    <div class="container">
+      <h2>What Clients Say</h2>
+      <div class="testimonial-grid">
+        <div class="testimonial">
+          <div class="stars">★★★★★</div>
+          <p>"Fade was clean and exactly what I wanted."</p>
+        </div>
+        <div class="testimonial">
+          <div class="stars">★★★★★</div>
+          <p>"Easy booking and professional service."</p>
+        </div>
+        <div class="testimonial">
+          <div class="stars">★★★★★</div>
+          <p>"Best barber experience I've had in a while."</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta reveal">
+    <div class="container">
+      <h2>Ready For A Fresh Cut?</h2>
+      <p>Message me on WhatsApp and secure your spot today.</p>
+      <a href="https://wa.me/YOURNUMBER" class="btn">
+        <i class="fab fa-whatsapp"></i> Book On WhatsApp
+      </a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <h3>GOATED BARBERS</h3>
+      <p>37 St Patricks</p>
+      <p>[WHATSAPP NUMBER]</p>
+      <div class="social-icons">
+        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+        <a href="https://wa.me/YOURNUMBER" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- FLOATING WHATSAPP -->
+  <a href="https://wa.me/YOURNUMBER" class="floating-wa" aria-label="Chat on WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <!-- MOBILE BOOK BAR -->
+  <div class="mobile-book-bar">
+    <a href="https://wa.me/YOURNUMBER">
+      <i class="fab fa-whatsapp"></i> Book Now
+    </a>
+  </div>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+</body>
+</html>
